@@ -1,0 +1,19 @@
+{
+  "name": "webpack-6700",
+  "version": "1.0.0",
+  "description": "https://github.com/webpack/webpack/issues/6700",
+  "main": "src/index.js",
+  "repository": "https://github.com/afhole/webpack-6700.git",
+  "author": "Alastair Hole <afhole@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
